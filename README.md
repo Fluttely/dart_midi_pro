@@ -1,39 +1,30 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# dart_midi_pro 1.0.2
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+This package is a continuation of the package [dart_midi](https://pub.dev/packages/dart_midi).
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+A Dart package that provides a parser and writer implementation for MIDI data.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+The byte decoding and writing code is based on the JavaScript library [midi-file](https://github.com/nfroidure/MIDIFile).
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+## Example
 
 ```dart
-const like = 'sample';
+// Open a file containing midi data
+var file = File('sample_midi.mid');
+
+// Construct a midi parser
+var parser = MidiParser();
+
+// Parse midi directly from file. You can also use parseMidiFromBuffer to directly parse LI
+MidiFile parsedMidi = parser.parseMidiFromFile(file);
+
+// You can now access your parsed [MidiFile]
+print(parsedMidi.tracks.length.toString());
+
+// Construct a midi writer
+var writer = MidiWriter();
+
+// Let's write and encode our midi data again
+// You can also control `running` flag to compress the file and `useByte9ForNoteOff` to use 0x
+writer.writeMidiToFile(parsedMidi, File('output.mid'));
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.

@@ -1,8 +1,9 @@
 name: dart_midi_pro
 description: A pure Dart MIDI parser and writer implementation. This package is platform agnostic and works on every dart platform.
-version: 1.0.1
+version: 1.0.2
 author: Kevin Kobori <kevinyujikobori@gmail.com>
 homepage: https://github.com/Fluttely/dart_midi_pro
+repository: https://github.com/Fluttely/dart_midi_pro
 
 environment:
   sdk: ^3.4.3

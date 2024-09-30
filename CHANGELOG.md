@@ -1,3 +1,3 @@
-## 1.0.0
-
-- Initial version.
+## [1.0.2] - 2024-09-30
+### Added
+- Dart 3 compaatibility
