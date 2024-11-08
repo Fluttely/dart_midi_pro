@@ -8,13 +8,6 @@ A Dart package that provides a parser and writer implementation for MIDI data. T
 
 The byte decoding and writing code is originally based on the JavaScript library [midi-file](https://github.com/carter-thaxton/midi-file).
 
-## What's New in This Fork
-
-This fork introduces the following updates:
-- [List any new features you have added here]
-- [List any specific bug fixes or improvements]
-- [Additional performance optimizations or changes]
-
 ## Example
 
 ```dart
