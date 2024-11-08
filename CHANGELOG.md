@@ -1,3 +1,8 @@
+## [1.0.4] - 2024-11-07
+
+### Documentation
+- Updated instructions in README.md to improve clarity and accuracy.
+
 ## [1.0.3] - 2024-11-07
 
 ### Added
