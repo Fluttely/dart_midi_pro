@@ -1,4 +1,4 @@
-import 'package:dart_midi/src/data_chunk.dart';
+import 'package:dart_midi_pro/src/data_chunk.dart';
 
 class ByteWriter {
   final List<int> buffer = [];

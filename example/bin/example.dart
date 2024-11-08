@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:dart_midi/dart_midi.dart';
+import 'package:dart_midi_pro/dart_midi_pro.dart';
 
 void main() {
   // Open a file containing midi data

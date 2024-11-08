@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:dart_midi/src/byte_writer.dart';
+import 'package:dart_midi_pro/src/byte_writer.dart';
 
 abstract class MidiEvent {
   String type = '';
@@ -63,7 +63,8 @@ class ChannelAfterTouchEvent extends MidiEvent {
 
 class PitchBendEvent extends MidiEvent {
   int channel = 0;
-  int value = 0; // A pitch bend value from -8192 to 8191. Defaults to 0, or no bend.
+  int value =
+      0; // A pitch bend value from -8192 to 8191. Defaults to 0, or no bend.
 
   int writeEvent(ByteWriter w) {
     var eventTypeByte = 0xE0 | channel;

@@ -1,11 +1,17 @@
-name: dart_midi
+name: dart_midi_pro
 description: A pure Dart MIDI parser and writer implementation. This package is platform agnostic and works on every dart platform.
-version: 1.0.1
-author: Filip Grzywok <f.grzywok@gmail.com>
-homepage: https://github.com/feelfreelinux/midi
+version: 1.0.2
+# authors:
+#   - Kevin Kobori <kevinyujikobori@gmail.com>
+#   - Filip Grzywok <f.grzywok@gmail.com>
+homepage: https://www.linkedin.com/in/kevin-kobori/
+repository: https://github.com/Fluttely/dart_midi_pro
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ^3.4.3
 
+dependencies:
+  
 dev_dependencies:
-  test: ^1.6.4
+  lints: ^3.0.0
+  test: ^1.24.0
