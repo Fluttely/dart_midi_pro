@@ -1,14 +1,19 @@
-## [1.0.4+1] - 2024-11-27
+## 1.0.4+2
+
+### Documentation
+- Update CHANGELOG to include documentation improvements
+
+## 1.0.4+1
 
 ### Documentation
 - Updated homepage in pubspec.yaml
 
-## [1.0.4] - 2024-11-07
+## 1.0.4
 
 ### Documentation
 - Updated instructions in README.md to improve clarity and accuracy.
 
-## [1.0.3] - 2024-11-07
+## 1.0.3
 
 ### Added
 - Configurations updated for better package publish compatibility.
@@ -20,15 +25,17 @@
 ### Removed
 - Removed unnecessary dependencies to streamline the package.
 
-## [1.0.2] - 2024-09-30
+## 1.0.2
 
 ### Added
 - Dart 3 compatibility
 
-## [1.0.1] - 04.06.2019.
+## 1.0.1
 
-* Codestyle fixes
+### Fixed
+- Codestyle fixes
 
-## [1.0.0] - 04.06.2019.
+## 1.0.0
 
-* Initial implementation of MidiWriter and MidiParser
+### Added
+- Initial implementation of MidiWriter and MidiParser
