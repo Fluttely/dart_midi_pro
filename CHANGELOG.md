@@ -1,3 +1,8 @@
+## [1.0.4+1] - 2024-11-27
+
+### Documentation
+- Updated homepage in pubspec.yaml
+
 ## [1.0.4] - 2024-11-07
 
 ### Documentation
